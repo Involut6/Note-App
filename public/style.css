@@ -51,7 +51,6 @@ form {
   }
 
   .note {
-    position: absolute;
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
@@ -73,8 +72,7 @@ form {
   
   .note button {
     position: relative;
-    left: 200px;
-    bottom: -28px;
+    float: right;
     margin-right: 10px;
     background-color: crimson;
     color: white;
